@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="input.css">
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="../font/all.min.css">
+</head>
+
+<body class="m-0">
+    <!--navbar and header-->
+    <header id="home">
+        <nav class="fixed bg-white h-auto w-full flex justify-between items-center flex-row shadow-xl z-10">
+            <a href="#home" class="navbar-items tracking-widest">LOGO</a>
+
+            <div class="flex h-full">
+                <a href="#about" class="navbar-items">ABOUT</a>
+                <a href="#team" class="navbar-items">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                        <path
+                            d="M10 8a3 3 0 100-6 3 3 0 000 6zM3.465 14.493a1.23 1.23 0 00.41 1.412A9.957 9.957 0 0010 18c2.31 0 4.438-.784 6.131-2.1.43-.333.604-.903.408-1.41a7.002 7.002 0 00-13.074.003z" />
+                    </svg>
+                    TEAM
+                </a>
+                <a href="#ourwork" class="navbar-items ">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                        <path fillRule="evenodd"
+                            d="M4.25 2A2.25 2.25 0 002 4.25v2.5A2.25 2.25 0 004.25 9h2.5A2.25 2.25 0 009 6.75v-2.5A2.25 2.25 0 006.75 2h-2.5zm0 9A2.25 2.25 0 002 13.25v2.5A2.25 2.25 0 004.25 18h2.5A2.25 2.25 0 009 15.75v-2.5A2.25 2.25 0 006.75 11h-2.5zm9-9A2.25 2.25 0 0011 4.25v2.5A2.25 2.25 0 0013.25 9h2.5A2.25 2.25 0 0018 6.75v-2.5A2.25 2.25 0 0015.75 2h-2.5zm0 9A2.25 2.25 0 0011 13.25v2.5A2.25 2.25 0 0013.25 18h2.5A2.25 2.25 0 0018 15.75v-2.5A2.25 2.25 0 0015.75 11h-2.5z"
+                            clipRule="evenodd" />
+                    </svg>
+
+                    WORK
+                </a>
+                <a href="#pricing" class="navbar-items">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                        <path
+                            d="M10.75 10.818v2.614A3.13 3.13 0 0011.888 13c.482-.315.612-.648.612-.875 0-.227-.13-.56-.612-.875a3.13 3.13 0 00-1.138-.432zM8.33 8.62c.053.055.115.11.184.164.208.16.46.284.736.363V6.603a2.45 2.45 0 00-.35.13c-.14.065-.27.143-.386.233-.377.292-.514.627-.514.909 0 .184.058.39.202.592.037.051.08.102.128.152z" />
+                        <path fill-rule="evenodd"
+                            d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-6a.75.75 0 01.75.75v.316a3.78 3.78 0 011.653.713c.426.33.744.74.925 1.2a.75.75 0 01-1.395.55 1.35 1.35 0 00-.447-.563 2.187 2.187 0 00-.736-.363V9.3c.698.093 1.383.32 1.959.696.787.514 1.29 1.27 1.29 2.13 0 .86-.504 1.616-1.29 2.13-.576.377-1.261.603-1.96.696v.299a.75.75 0 11-1.5 0v-.3c-.697-.092-1.382-.318-1.958-.695-.482-.315-.857-.717-1.078-1.188a.75.75 0 111.359-.636c.08.173.245.376.54.569.313.205.706.353 1.138.432v-2.748a3.782 3.782 0 01-1.653-.713C6.9 9.433 6.5 8.681 6.5 7.875c0-.805.4-1.558 1.097-2.096a3.78 3.78 0 011.653-.713V4.75A.75.75 0 0110 4z"
+                            clip-rule="evenodd" />
+                    </svg>
+                    PRICING
+                </a>
+                <a href="#contact" class="navbar-items">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                        <path
+                            d="M3 4a2 2 0 00-2 2v1.161l8.441 4.221a1.25 1.25 0 001.118 0L19 7.162V6a2 2 0 00-2-2H3z" />
+                        <path
+                            d="M19 8.839l-7.77 3.885a2.75 2.75 0 01-2.46 0L1 8.839V14a2 2 0 002 2h14a2 2 0 002-2V8.839z" />
+                    </svg>
+                    CONTACT
+                </a>
+            </div>
+        </nav>
+        <div class="px-10 pt-20 w-full h-[44rem]"
+            style="background-image: url(images/mac.jpg) ;background-position: center;">
+            <p class="text-7xl text-white mt-32">
+                Start something that matters
+            </p>
+            <p class="text-lg text-white mt-20 mb-7">
+                Stop wasting valuable time with projects that just isn't you.
+            </p>
+            <a href="#about" class=" bg-gray-400 text-black p-4 hover:bg-gray-200 text-lg">
+                Learn more and start today
+            </a>
+            <div class="mt-44">
+                <span>
+                    <i class="fa-brands fa-facebook icons"></i>
+                    <i class="fa-brands fa-instagram icons"></i>
+                    <i class="fa-brands fa-snapchat icons"></i>
+                    <i class="fa-brands fa-pinterest-p icons"></i>
+                    <i class="fa-brands fa-twitter icons"></i>
+                    <i class="fa-brands fa-linkedin-in icons"></i>
+                </span>
+            </div>
+        </div>
+    </header>
+    <!--the main-->
+    <main>
+        <!--section part 1-->
+        <section id="about" class="py-24 px-8 bg-gray-100">
+            <div class="text-center">
+                <p class="text-3xl text-gray-900">ABOUT THE COMPANY</p>
+                <p class="text-lg text-gray-700 py-6">Key features of our company</p>
+            </div>
+            <div class="grid lg:grid-cols-4 gap-3 text-center">
+                <div class="py-4">
+                    <i class="text-6xl fa-solid fa-tv text"></i>
+                    <h3 class="my-10 text-lg">
+                        Responsive
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore.
+                    </p>
+                </div>
+                <div class="py-4">
+                    <i class="text-6xl fa-solid fa-heart"></i>
+                    <h3 class="my-10 text-lg">
+                        Passion
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore.
+                    </p>
+                </div>
+                <div class="py-4">
+                    <i class="text-6xl fa-regular fa-gem"></i>
+                    <h3 class="my-10 text-lg">
+                        Design
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore.
+                    </p>
+                </div>
+                <div class="py-4">
+                    <i class="text-6xl fa-solid fa-gear"></i>
+                    <h3 class="my-10 text-lg">
+                        Support
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!--section part 2-->
+        <section class="py-24 px-8 bg-gray-200">
+            <div class="grid lg:grid-cols-2 gap-3 text-left">
+                <div class="pr-28">
+                    <h3 class="text-2xl">
+                        We know design.
+                    </h3>
+                    <p class="text-base py-4">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore.
+                    </p>
+                    <div class="flex h-10 w-auto">
+                        <a href="#ourwork"
+                            class="text-white bg-gray-900 hover:text-gray-900 hover:bg-gray-400  h-full flex items-center p-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                class="w-5 h-5 mr-1">
+                                <path fillRule="evenodd"
+                                    d="M4.25 2A2.25 2.25 0 002 4.25v2.5A2.25 2.25 0 004.25 9h2.5A2.25 2.25 0 009 6.75v-2.5A2.25 2.25 0 006.75 2h-2.5zm0 9A2.25 2.25 0 002 13.25v2.5A2.25 2.25 0 004.25 18h2.5A2.25 2.25 0 009 15.75v-2.5A2.25 2.25 0 006.75 11h-2.5zm9-9A2.25 2.25 0 0011 4.25v2.5A2.25 2.25 0 0013.25 9h2.5A2.25 2.25 0 0018 6.75v-2.5A2.25 2.25 0 0015.75 2h-2.5zm0 9A2.25 2.25 0 0011 13.25v2.5A2.25 2.25 0 0013.25 18h2.5A2.25 2.25 0 0018 15.75v-2.5A2.25 2.25 0 0015.75 11h-2.5z"
+                                    clipRule="evenodd" />
+                            </svg>
+                            View Our Works
+                        </a>
+                    </div>
+
+                </div>
+                <div>
+                    <img class="rounded-xl" src="images/phone_buildings.jpg" alt="photo">
+                </div>
+            </div>
+        </section>
+        <!--section part 3-->
+        <section id="team" class="py-24 px-8 bg-gray-100">
+            <div class="text-center">
+                <p class="text-3xl text-gray-900">
+                    THE TEAM
+                </p>
+                <p class="text-lg text-gray-700 py-6">
+                    The ones who runs this company
+                </p>
+            </div>
+            <div class="grid lg:grid-cols-4 gap-3">
+                <div class="shadow-xl">
+                    <img src="images/team2.jpg" alt="photo">
+                    <div class="px-5">
+                        <p class="text-3xl text-gray-900 my-2">
+                            John Doe
+                        </p>
+                        <p class="text-sm opacity-60 my-5">
+                            CEO & Founder
+                        </p>
+                        <p class="text-gray-800">
+                            Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque
+                            elementum.
+                        </p>
+                        <div class="flex my-5">
+                            <button
+                                class="text-gray-900 bg-gray-200 hover:bg-gray-300 flex items-center w-full px-28 py-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                    class="w-5 h-5 mr-1">
+                                    <path
+                                        d="M3 4a2 2 0 00-2 2v1.161l8.441 4.221a1.25 1.25 0 001.118 0L19 7.162V6a2 2 0 00-2-2H3z" />
+                                    <path
+                                        d="M19 8.839l-7.77 3.885a2.75 2.75 0 01-2.46 0L1 8.839V14a2 2 0 002 2h14a2 2 0 002-2V8.839z" />
+                                </svg>
+                                Contact
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-xl">
+                    <img src="images/team1.jpg" alt="photo">
+                    <div class="px-5">
+                        <p class="text-3xl text-gray-900 my-2">
+                            Anja Doe
+                        </p>
+                        <p class="text-sm opacity-60 my-5">
+                            Art Director
+                        </p>
+                        <p class="text-gray-800">
+                            Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque
+                            elementum.
+                        </p>
+                        <div class="flex my-5">
+                            <button
+                                class="text-gray-900 bg-gray-200 hover:bg-gray-300 flex items-center w-full px-28 py-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                    class="w-5 h-5 mr-1">
+                                    <path
+                                        d="M3 4a2 2 0 00-2 2v1.161l8.441 4.221a1.25 1.25 0 001.118 0L19 7.162V6a2 2 0 00-2-2H3z" />
+                                    <path
+                                        d="M19 8.839l-7.77 3.885a2.75 2.75 0 01-2.46 0L1 8.839V14a2 2 0 002 2h14a2 2 0 002-2V8.839z" />
+                                </svg>
+                                Contact
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-xl">
+                    <img src="images/team3.jpg" alt="photo">
+                    <div class="px-5">
+                        <p class="text-3xl text-gray-900 my-2">
+                            Mike Ross
+                        </p>
+                        <p class="text-sm opacity-60 my-5">
+                            Web Designer
+                        </p>
+                        <p class="text-gray-800">
+                            Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque
+                            elementum.
+                        </p>
+                        <div class="flex my-5">
+                            <button
+                                class="text-gray-900 bg-gray-200 hover:bg-gray-300 flex items-center w-full px-28 py-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                    class="w-5 h-5 mr-1">
+                                    <path
+                                        d="M3 4a2 2 0 00-2 2v1.161l8.441 4.221a1.25 1.25 0 001.118 0L19 7.162V6a2 2 0 00-2-2H3z" />
+                                    <path
+                                        d="M19 8.839l-7.77 3.885a2.75 2.75 0 01-2.46 0L1 8.839V14a2 2 0 002 2h14a2 2 0 002-2V8.839z" />
+                                </svg>
+                                Contact
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-xl">
+                    <img src="images/team4.jpg" alt="photo">
+                    <div class="px-5">
+                        <p class="text-3xl text-gray-900 my-2">
+                            Dan Star
+                        </p>
+                        <p class="text-sm opacity-60 my-5">
+                            Designer
+                        </p>
+                        <p class="text-gray-800">
+                            Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque
+                            elementum.
+                        </p>
+                        <div class="flex my-5">
+                            <button
+                                class="text-gray-900 bg-gray-200 hover:bg-gray-300 flex items-center w-full px-28 py-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                    class="w-5 h-5 mr-1">
+                                    <path
+                                        d="M3 4a2 2 0 00-2 2v1.161l8.441 4.221a1.25 1.25 0 001.118 0L19 7.162V6a2 2 0 00-2-2H3z" />
+                                    <path
+                                        d="M19 8.839l-7.77 3.885a2.75 2.75 0 01-2.46 0L1 8.839V14a2 2 0 002 2h14a2 2 0 002-2V8.839z" />
+                                </svg>
+                                Contact
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--section part 4-->
+        <section class="py-20 bg-gray-500">
+            <div class="grid lg:grid-cols-4 text-center text-white">
+                <div>
+                    <span class="text-4xl">
+                        14+
+                    </span>
+                    <br>
+                    <span>
+                        Partners
+                    </span>
+                </div>
+                <div>
+                    <span class="text-4xl">
+                        55+
+                    </span>
+                    <br>
+                    <span>
+                        Projects Done
+                    </span>
+                </div>
+                <div>
+                    <span class="text-4xl">
+                        89+
+                    </span>
+                    <br>
+                    <span>
+                        Happy Clients
+                    </span>
+                </div>
+                <div>
+                    <span class="text-4xl">
+                        150+
+                    </span>
+                    <br>
+                    <span>
+                        Meetings
+                    </span>
+                </div>
+            </div>
+        </section>
+        <!--section part 5-->
+        <section id="ourwork" class="py-24 px-8 bg-gray-100">
+            <div class="text-center">
+                <p class="text-3xl text-gray-900">
+                    OUR WORK
+                </p>
+                <p class="text-lg text-gray-700 py-6">
+                    What we've done for people
+                </p>
+            </div>
+            <div class="grid lg:grid-cols-4 gap-3">
+                <img class="images-list" src="images/img1.jpg" alt="photo">
+                <img class="images-list" src="images/img2.jpg" alt="photo">
+                <img class="images-list" src="images/img3.jpg" alt="photo">
+                <img class="images-list" src="images/img4.jpg" alt="photo">
+                <img class="images-list" src="images/img5.jpg" alt="photo">
+                <img class="images-list" src="images/img6.jpg" alt="photo">
+                <img class="images-list" src="images/img7.jpg" alt="photo">
+                <img class="images-list" src="images/img8.jpg" alt="photo">
+            </div>
+            </div>
+        </section>
+        <!--section part 6-->
+        <section class="py-24 px-8 bg-gray-200">
+            <div class="grid lg:grid-cols-2 gap-3 text-left">
+                <div class="pr-28">
+                    <p class="text-3xl text-gray-900">
+                        Our Skills.
+                    </p>
+                    <p class="text-base py-4">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore.
+                    </p>
+                    <p class="text-base py-4">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore.
+                    </p>
+                </div>
+                <div>
+                    <div class="flex  mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                            <path d="M12 9a3.75 3.75 0 100 7.5A3.75 3.75 0 0012 9z" />
+                            <path fill-rule="evenodd"
+                                d="M9.344 3.071a49.52 49.52 0 015.312 0c.967.052 1.83.585 2.332 1.39l.821 1.317c.24.383.645.643 1.11.71.386.054.77.113 1.152.177 1.432.239 2.429 1.493 2.429 2.909V18a3 3 0 01-3 3h-15a3 3 0 01-3-3V9.574c0-1.416.997-2.67 2.429-2.909.382-.064.766-.123 1.151-.178a1.56 1.56 0 001.11-.71l.822-1.315a2.942 2.942 0 012.332-1.39zM6.75 12.75a5.25 5.25 0 1110.5 0 5.25 5.25 0 01-10.5 0zm12-1.5a.75.75 0 100-1.5.75.75 0 000 1.5z"
+                                clip-rule="evenodd" />
+                        </svg>
+                        <p class="ml-3 tracking-widest text-gray-500">
+                            Photography
+                        </p>
+                    </div>
+                    <div class="w-full bg-gray-300 mb-4 py-1">
+                        <span class="text-white bg-gray-600 px-72 py-1" style="width: 90%;">
+                            90%
+                        </span>
+                    </div>
+                    <div class="flex  mb-4">
+                        <i class="mt-1 fa-solid fa-tv"></i>
+                        <p class="ml-3 tracking-widest text-gray-500">
+                            Web Design
+                        </p>
+                    </div>
+                    <div class="w-full bg-gray-300 mb-4 py-1">
+                        <span class="text-white bg-gray-600 px-64 py-1">
+                            85%
+                        </span>
+                    </div>
+                    <div class="flex  mb-4">
+                        <i class="mt-1 fa-regular fa-image"></i>
+                        <p class="ml-3 tracking-widest text-gray-500">
+                            Photoshop
+                        </p>
+                    </div>
+                    <div class="w-full bg-gray-300 mb-4 py-1">
+                        <span class="text-white bg-gray-600 px-56 py-1" style="width: 90%;">
+                            75%
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--section part 7-->
+        <section id="pricing" class="py-20 bg-gray-500">
+            <div class="text-center text-white">
+                <p class="text-3xl">
+                    PRICING
+                </p>
+                <p class="text-lg pt-6 pb-12">
+                    Choose a pricing plan that fits your needs.
+                </p>
+            </div>
+            <div class="grid lg:grid-cols-3 gap-4 px-4 text-center">
+                <div>
+                    <ul class="hover:shadow-2xl">
+                        <li class="text-3xl text-white bg-black py-8">Basic</li>
+                        <li class="tables"><b>10GB</b> Storage</li>
+                        <li class="tables"><b>10</b> Emails</li>
+                        <li class="tables"><b>10</b> Domains</li>
+                        <li class="tables"><b>Endless</b> Support</li>
+                        <li class="tables">
+                            <h3 class="text-4xl my-3">$ 10</h3>
+                            <span>per month</span>
+                        </li>
+                        <li class="bg-gray-50 p-4 border-b-2 divide-slate-700">
+                            <button
+                                class="text-white bg-gray-900 hover:text-gray-900 hover:bg-gray-400 p-4 w-40">
+                                Sign up
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="hover:shadow-2xl">
+                        <li class="text-3xl text-white bg-red-600 py-12">Pro</li>
+                        <li class="tables"><b>25GB</b> Storage</li>
+                        <li class="tables"><b>25</b> Emails</li>
+                        <li class="tables"><b>25</b> Domains</li>
+                        <li class="tables"><b>Endless</b> Support</li>
+                        <li class="tables">
+                            <h3 class="text-4xl my-3">$ 25</h3>
+                            <span>per month</span>
+                        </li>
+                        <li class="bg-gray-50 p-4 border-b-2 divide-slate-700">
+                            <button
+                                class="text-white bg-gray-900 hover:text-gray-900 hover:bg-gray-400 p-4 w-40">
+                                Sign up
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="hover:shadow-2xl">
+                        <li class="text-3xl text-white bg-black py-8">Premium</li>
+                        <li class="tables"><b>50GB</b> Storage</li>
+                        <li class="tables"><b>50</b> Emails</li>
+                        <li class="tables"><b>50</b> Domains</li>
+                        <li class="tables"><b>Endless</b> Support</li>
+                        <li class="tables">
+                            <h3 class="text-4xl my-3">$ 50</h3>
+                            <span>per month</span>
+                        </li>
+                        <li class="bg-gray-50 p-4 border-b-2 divide-slate-700">
+                            <button
+                                class="text-white bg-gray-900 hover:text-gray-900 hover:bg-gray-400 p-4 w-40">
+                                Sign up
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!--section part 9-->
+        <section id="contact" class="py-24 px-5 bg-gray-200">
+            <div class="text-center">
+                <p class="text-3xl">
+                    CONTACT
+                </p>
+                <p class="text-lg pt-6 pb-14">
+                    Lets get in touch. Send us a message:
+                </p>
+            </div>
+            <div>
+                <div class="py-4">
+                    <i class="mr-6 text-3xl fa-solid fa-location-dot"></i>
+                    <span class="text-lg">Karaj.IRAN</span>
+                </div>
+                <div class="py-4">
+                    <i class="mr-6 text-3xl fa-solid fa-phone"></i>
+                    <span class="text-lg">Phon:09338101084</span>
+                </div>
+                <div class="py-4">
+                    <i class="mr-6 text-4xl fa-solid fa-envelope"></i>
+                    <span class="text-lg">Email:amirmolladavodi@gmail.com</span>
+                </div>
+            </div>
+            <form action="/action_page.php" target="_blank" class="py-5 grid lg:grid-cols-1 gap-3 text-left">
+                <input class="p-2 border border-slate-400" type="text" placeholder="Name" required name="Name">
+                <input class="p-2 border border-slate-400" type="text" placeholder="Email" required name="Email">
+                <input class="p-2 border border-slate-400" type="text" placeholder="Subject" required name="Subject">
+                <input class="p-2 border border-slate-400" type="text" placeholder="Massage" required name="Message">
+                <button type="submit"
+                    class="text-white bg-gray-900 hover:text-gray-900 hover:bg-gray-400 py-2 px-5 mb-12 w-44">
+                    <i class="fa-solid fa-paper-plane"></i>
+                    Send Massage
+                </button>
+            </form>
+            <img src="images/road.jpg" alt="photo">
+        </section>
+    </main>
+    <!--the footer-->
+    <footer class="py-20 p bg-black text-center">
+        <a href="#home" class="text-black bg-gray-200 hover:bg-gray-400 py-2 px-5">
+            <i class="fa-solid fa-arrow-up mr-2"></i>
+            To the up
+        </a>
+        <p class="py-7">
+            <i class="fa-brands fa-facebook footer-icons"></i>
+            <i class="fa-brands fa-instagram footer-icons"></i>
+            <i class="fa-brands fa-snapchat footer-icons"></i>
+            <i class="fa-brands fa-pinterest-p footer-icons"></i>
+            <i class="fa-brands fa-twitter footer-icons"></i>
+            <i class="fa-brands fa-linkedin-in footer-icons"></i>
+        </p>
+        <p class="text-white text-xl">
+            Powered by <i class="fa-solid fa-gun"></i><b> MOLIYANI</b>
+        </p>
+    </footer>
+
+</body>
+
+</html>

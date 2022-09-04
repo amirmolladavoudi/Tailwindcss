@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    @apply scroll-smooth;
+}
+.navbar-items {
+    @apply flex items-center p-5 h-full hover:bg-gray-300;
+}
+.navbar-items >svg {
+    @apply mr-1;
+}
+.icons {
+    @apply text-gray-400 hover:text-gray-700; 
+}
+.images-list {
+    @apply w-full hover:opacity-60;
+}
+.tables {
+@apply bg-gray-100 p-4 border-b-2 divide-slate-700  hover:bg-gray-50 ; 
+}
+.footer-icons {
+    @apply text-gray-200 hover:text-gray-700 text-2xl;
+}
